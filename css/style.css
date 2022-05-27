@@ -1,0 +1,74 @@
+#main {
+    margin: 0 auto;
+    min-height: 650px;
+    width: 85%;
+}
+
+header {
+    min-height: 60px;
+}
+
+section#main-section {
+    min-height: 500px;
+    display: flex;
+}
+
+footer {
+    min-height: 60px;
+}
+
+article#main-article {
+    width: 70%;
+}
+
+aside#main-aside {
+    width: 30%;
+}
+
+#gallery-section {
+    text-align: center;
+}
+
+#main-text, 
+#gallery-section,
+header, footer, aside {
+    padding: 0px 15px 5px 15px;
+}
+
+nav a {
+    font-size: 25px;
+}
+
+#gallery img {
+    margin: 5px;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#main-table {
+    width: 100%;
+}
+
+td {
+    padding: 4px;
+}
+
+.left {
+    text-align: left;
+}
+
+#main-form {
+    padding: 10px;
+}

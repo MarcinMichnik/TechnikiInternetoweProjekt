@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Techniki Internetowe - Projekt - Marcin Michnik</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body style="margin:0;padding:0;">
+        <div id="main">
+            <header>
+                <h1>Języki programowania</h1>
+            </header>
+            <section id="main-section">
+                <article id="main-article">
+                    <div id="main-form">
+                        <h1>Formularz o ulubionych językach programowania</h1>
+                        <form id="form-object">
+                            <label for="name">Jak się nazywasz?*</label>
+                            <br>
+                            <input id="name" 
+                            placeholder="Imię nazwisko" pattern=".{2,} .{2,}"
+                            title="Imię: min 2 znaki, Nazwisko: min 2 znaki, rozdzielone spacją"
+                            required/>
+
+                            <br>
+
+                            <label for="email">Jaki jest Twój adres mailowy?*</label>
+                            <br>
+                            <input type="email" id="email" placeholder="Email" required/>
+
+                            <br>
+
+                            <label for="date">Kiedy zacząłeś/ęłaś programować?*</label>
+                            <br>
+                            <input id="date" type="date" required>
+
+                            <br>
+
+                            <label>Jaki jest Twój ulubiony język programowania?*</label>
+                            <br>
+                            <input type="radio" id="input-go"
+                                name="lang" value="go" required>
+                            <label for="input-go">Go</label>
+                            <input type="radio" id="input-java"
+                                name="lang" value="java">
+                            <label for="input-java">Java</label>
+                            <input type="radio" id="input-c#"
+                                name="lang" value="c#">
+                            <label for="input-c#">C#</label>
+                            <input type="radio" id="input-python"
+                                name="lang" value="python">
+                            <label for="input-python">Python</label>
+                            <input type="radio" id="input-kotlin"
+                                name="lang" value="kotlin">
+                            <label for="input-kotlin">Kotlin</label>
+                            <input type="radio" id="input-php"
+                                name="lang" value="php">
+                            <label for="input-php">PHP</label>
+                            <input type="radio" id="input-c#"
+                                name="lang" value="c#">
+                            <label for="input-c#">C#</label>
+                            <input type="radio" id="input-swift"
+                                name="lang" value="swift">
+                            <label for="input-swift">Swift</label>
+                            <input type="radio" id="input-r"
+                                name="lang" value="r">
+                            <label for="input-r">R</label>
+                            <input type="radio" id="input-ruby"
+                                name="lang" value="ruby">
+                            <label for="input-ruby">Ruby</label>
+
+                            <br>
+
+                            <label for="years-of-experience">Ile lat programujesz w Twoim ulubionym języku?*</label>
+                            <br>
+                            <input type="number" id-="years-of-experience" required>
+
+                            <br>
+
+                            <label for="benefits">Co Ci się podoba w Twoim ulubionym języku?*</label>
+                            <br>
+                            <textarea id="benefits" required></textarea>
+
+                            <br>
+
+                            <label for="downsides">Co Ci się nie podoba w Twoim ulubionym języku?*</label>
+                            <br>
+                            <textarea id="downsides" required></textarea>
+
+                            <br>
+
+                            <label>Jak oceniasz trudność Twojego ulubionego języka?*</label>
+                            <br>
+                            <label>Łatwy</label>
+                            <input type="range" min="1" max="100" value="50" class="slider" id="difficulty">
+                            <label>Trudny</label>
+
+                            <br>
+
+                            <button type="submit">Prześlij</button>
+                        </form>
+                        <p id="output-message"></p>
+                    </div>
+                </article>
+                <aside id="main-aside">
+                    <nav>
+                        <h2>Menu</h2>
+                        <ul>
+                            <li>
+                                <a href="index.html">Strona główna</a>
+                            </li>
+                            <li>
+                                <a href="table.html">Tabela</a>
+                            </li>
+                            <li>
+                                <a href="#">Formularz</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+            </section>
+            <footer>
+                <h3>Autor: Marcin Michnik</h3>
+            </footer>
+        </div>
+        <script src="js/index.js"></script>
+  </body>
+</html>
